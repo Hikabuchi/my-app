@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-app/static/css/main.a0334cc3.css",
-    "main.js": "/my-app/static/js/main.0e2faa8d.js",
+    "main.js": "/my-app/static/js/main.1bd497ac.js",
     "static/js/453.d036fc84.chunk.js": "/my-app/static/js/453.d036fc84.chunk.js",
     "static/media/azis-pradana-c_5tdM3RifY-unsplash.jpg": "/my-app/static/media/azis-pradana-c_5tdM3RifY-unsplash.3ce1f35fabc374078e3f.jpg",
     "static/media/slide-main.png": "/my-app/static/media/slide-main.e1d00c37893e98ce491a.png",
@@ -12,11 +12,11 @@
     "static/media/Oswald-VariableFont_wght.ttf": "/my-app/static/media/Oswald-VariableFont_wght.7cecd0da606d25b0905d.ttf",
     "index.html": "/my-app/index.html",
     "main.a0334cc3.css.map": "/my-app/static/css/main.a0334cc3.css.map",
-    "main.0e2faa8d.js.map": "/my-app/static/js/main.0e2faa8d.js.map",
+    "main.1bd497ac.js.map": "/my-app/static/js/main.1bd497ac.js.map",
     "453.d036fc84.chunk.js.map": "/my-app/static/js/453.d036fc84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0334cc3.css",
-    "static/js/main.0e2faa8d.js"
+    "static/js/main.1bd497ac.js"
   ]
 }
