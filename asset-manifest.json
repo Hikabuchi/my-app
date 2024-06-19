@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.a0334cc3.css",
-    "main.js": "/my-app/static/js/main.1bd497ac.js",
+    "main.css": "/my-app/static/css/main.74f50350.css",
+    "main.js": "/my-app/static/js/main.7904408a.js",
     "static/js/453.d036fc84.chunk.js": "/my-app/static/js/453.d036fc84.chunk.js",
     "static/media/azis-pradana-c_5tdM3RifY-unsplash.jpg": "/my-app/static/media/azis-pradana-c_5tdM3RifY-unsplash.3ce1f35fabc374078e3f.jpg",
-    "static/media/slide-main.png": "/my-app/static/media/slide-main.e1d00c37893e98ce491a.png",
+    "static/media/slide-main.png": "/my-app/static/media/slide-main.6df784bd4b38624c6810.png",
     "static/media/river.png": "/my-app/static/media/river.62330911b43fbc7864fa.png",
     "static/media/drone.png": "/my-app/static/media/drone.a703f1f8fdd7ceced42e.png",
     "static/media/Montserrat-VariableFont_wght.ttf": "/my-app/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/slide2.jpg": "/my-app/static/media/slide2.5371c7a85f1c235cc75a.jpg",
     "static/media/Oswald-VariableFont_wght.ttf": "/my-app/static/media/Oswald-VariableFont_wght.7cecd0da606d25b0905d.ttf",
     "index.html": "/my-app/index.html",
-    "main.a0334cc3.css.map": "/my-app/static/css/main.a0334cc3.css.map",
-    "main.1bd497ac.js.map": "/my-app/static/js/main.1bd497ac.js.map",
+    "main.74f50350.css.map": "/my-app/static/css/main.74f50350.css.map",
+    "main.7904408a.js.map": "/my-app/static/js/main.7904408a.js.map",
     "453.d036fc84.chunk.js.map": "/my-app/static/js/453.d036fc84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0334cc3.css",
-    "static/js/main.1bd497ac.js"
+    "static/css/main.74f50350.css",
+    "static/js/main.7904408a.js"
   ]
 }
