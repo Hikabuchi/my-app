@@ -8,7 +8,7 @@
   width: 100%;
   display: flex;
   justify-content: end;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
@@ -33,3 +33,89 @@
 
 }
 
+.flipping-in-front,
+.flipping-in-bac{
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--bac);
+  color: var(--color3);
+  border: none;
+  font-size: 50px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.carousel-card p{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color1);
+  margin: 10px 30px;
+}
+
+.carousel-card a{
+  text-decoration: none;
+}
+
+.carousel-container{
+  margin-bottom: 90px;
+}
+
+.wrap-container-news{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+@media(max-width: 1024px){
+  .carousel-inner {
+    gap: 30px;
+  }
+  
+  .carousel-card {
+    width: 300px;
+    height: 400px;
+  }
+  
+  .container-card-img{
+    height: 200px;
+  }
+  
+  .flipping-in-front,
+  .flipping-in-bac{
+    font-size: 40px;
+  }
+  
+  .carousel-card p{
+    margin: 10px 20px;
+  }
+  
+  .carousel-container{
+    margin-bottom: 60px;
+  }
+}
+
+
+@media(max-width: 600px){
+
+
+  .carousel-inner {
+    gap: 30px;
+  }
+  .container-card-img{
+    height: 100px;
+  }
+  
+  .flipping-in-front,
+  .flipping-in-bac{
+    font-size: 20px;
+  }
+  
+  .carousel-card p{
+    margin: 10px 10px;
+  }
+  
+  .carousel-container{
+    margin-bottom: 20px;
+  }
+}

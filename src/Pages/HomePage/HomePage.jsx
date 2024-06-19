@@ -39,7 +39,7 @@ const HomePage = () => {
             </div>
           </div>
         <section>
-            <h2>Новости<br />и мероприятия</h2>
+            <h2 className="h2-news about-curse-h2">Новости<br />и мероприятия</h2>
             <News />
         </section>
       </main>

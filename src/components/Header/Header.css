@@ -90,6 +90,8 @@
         position: absolute;
         top: 70px;
         right: 0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
         background-color: var(--color1);
         padding: 20px 40px;
         z-index: 3;
@@ -100,7 +102,7 @@
     }
 
     .menu-item{
-         margin: 5px;
+         margin: 15px;
     }
 
     .burger-nav a{

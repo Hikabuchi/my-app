@@ -5,14 +5,14 @@
 .About-curse{
     font-family: "Montserrat", sans-serif;
 	display: flex;
-	padding: 100px 90px;
+	padding: 90px;
 	gap: 40px;
 }
 
 .about-curse-h2{
 	color: var(--color1);
 	font-family: "Oswald", sans-serif;
-	font-size: 4.5rem;
+	font-size: 4rem;
 	font-weight: 700;
 }
 
@@ -89,12 +89,17 @@
 	font-weight: 700;
 }
 
+.h2-news{
+	margin: 20px 90px;
+}
+
 
 @media(max-width: 1024px){
 	.About-curse{
 		flex-wrap: wrap;
-		padding: 100px 60px;
-		gap: 40px;
+		justify-content: center;
+		padding: 60px;
+		gap: 30px;
 	}
 	
 	.about-curse-img img{
@@ -103,7 +108,7 @@
 	}
 
 	.about-curse-h2{
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 
 	.about-curse_container{
@@ -128,12 +133,33 @@
 	.inform-cart-button{
 		font-size: 2rem;
 	}
+
+	.about-curse-link{
+		width: 200px;
+		padding: 10px;
+		font-size: 1.2rem;
+	}
+
+	.h2-news{
+		margin: 15px;
+	}
+
+
 }
 
 @media(max-width: 600px ){
+	.About-curse{
+		padding: 20px;
+		gap: 20px;
+	}
+	
+	.about-curse-img img{
+		width: 100%;
+        height: auto;
+	}
 
 	.about-curse-h2{
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 
 	.about-curse-p{
@@ -143,5 +169,13 @@
 	.about-curse-img{
 		justify-content: center;
 		width: 100%;
+	}
+
+	.about-curse-link{
+		font-size: 1rem;
+	}
+
+		.h2-news{
+		margin: 10px;
 	}
 }

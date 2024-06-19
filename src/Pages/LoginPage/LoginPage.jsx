@@ -60,10 +60,10 @@ const AuthorizationPage = () => {
               <br/>
                 <Link to="/personal-account" className='sumbit-login'>
                   Войти
-              </Link>
+                </Link>
               <p className='help-links-login'>
                 <Link to="#">Не помню пароль</Link><br />
-                У вас нет учетной записи? 
+                    У вас нет учетной записи? 
                 <Link to="/register">Зарегистрироваться</Link>
               </p>
             </form>
