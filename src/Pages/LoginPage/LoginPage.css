@@ -53,13 +53,14 @@
 }
 
 .sumbit-login{
+    text-align: center;
     margin: 10px 0 20px 0;
     background-color: var(--color2);
     border: none;
     font-size: 1.75rem;
     color: var(--color1);
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px 10px;
     width: 100%;
 }
 

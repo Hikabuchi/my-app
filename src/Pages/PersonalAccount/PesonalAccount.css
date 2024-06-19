@@ -178,6 +178,8 @@
     }
 
     .inform-student{
+        justify-content: space-evenly;
+        gap: 20px;
         padding: 20px 60px;
     }
     
@@ -260,8 +262,8 @@
 
 @media (max-width: 600px) {
     .School-Science-img{
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 0px;
     }
 
     .Internet-Network-img{
@@ -305,7 +307,7 @@
     
     .curse-bpla{
         gap: 30px;
-        padding: 40px 60px;
+        padding: 10px 20px;
     }
     
     .h2-student{
@@ -313,16 +315,16 @@
     }
     
     .curses-student{
-        padding: 20px 60px;
+        padding: 10px 20px;
     }
     
     .task-student{
-        font-size: 1rem;
+        font-size: 0.75rem;
         padding: 20px;
     }
 
     .scores-num{
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     .h3-student{
@@ -330,25 +332,12 @@
     }
     
     .content-task-student{
+        display: flex;
         gap: 20px;
     }
     
     .life-line{
         height: 35px;
-    }
-    
-    .progress-line{
-        font-size: 1rem;
-        font-weight: 600;
-        height: 35px;
-    }
-    
-    .inform-about-task{
-        font-size: 1rem;
-    }
-    
-    .scores-profil{
-        font-size: 1rem;
     }
     
 }

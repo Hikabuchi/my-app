@@ -97,13 +97,8 @@
 
 
 @media(max-width: 600px){
-
-
   .carousel-inner {
     gap: 30px;
-  }
-  .container-card-img{
-    height: 100px;
   }
   
   .flipping-in-front,

@@ -58,8 +58,10 @@ const AuthorizationPage = () => {
               <input className='input-login' id='password' type="password" value={password} onChange={(e) => setPassword(e.target.value)}  />
               {errors.password && <div style={{ color: 'var(--error)'}}>{errors.password}</div>}
               <br/>
-                <Link to="/personal-account" className='sumbit-login'>
+                <Link to="/personal-account" >
+                <div className='sumbit-login'>
                   Войти
+                </div>
                 </Link>
               <p className='help-links-login'>
                 <Link to="#">Не помню пароль</Link><br />
