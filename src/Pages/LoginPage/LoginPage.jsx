@@ -20,13 +20,8 @@ const AuthorizationPage = () => {
     if (Object.keys(errors).length > 0) {
       setErrors(errors);
     } else {
-      // Успешная авторизация, перенаправление на страницу личного кабинета 
-      const [login] = useState([
-        {
-          link:'/personal-account'
-        }
-      ]);
-        {
+      // Успешная авторизация, перенаправление на страницу личного кабинета
+  
     }
   };
 
@@ -63,8 +58,8 @@ const AuthorizationPage = () => {
               <input className='input-login' id='password' type="password" value={password} onChange={(e) => setPassword(e.target.value)}  />
               {errors.password && <div style={{ color: 'var(--error)'}}>{errors.password}</div>}
               <br/>
-              <Link to={login.link}>
-                <button type="submit" className='sumbit-login'>Войти</button>
+                <Link to="/personal-account" className='sumbit-login'>
+                  Войти
               </Link>
               <p className='help-links-login'>
                 <Link to="#">Не помню пароль</Link><br />
