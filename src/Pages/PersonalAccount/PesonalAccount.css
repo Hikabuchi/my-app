@@ -1,0 +1,354 @@
+.inform-student{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 90px;
+    background-color: var(--color3);
+}
+
+.student-inform-left{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.h1-student{
+    font-family: 'Oswald',sans-serif;
+    font-size: 2.188rem;
+    color: var(--color2);
+    margin-bottom: 10px;
+}
+
+.photo-student{
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.photo-student img{
+    width: 100%;
+    height: auto;
+
+}
+
+.student-name{
+    display: flex;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--color1);
+}
+
+.student-name img{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.level-student{
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: var(--color1);
+}
+
+.curse-bpla{
+    gap: 30px;
+    padding: 40px 90px;
+    background-color: var(--color2);
+    border-radius: 15px;
+}
+
+.h2-student{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.75rem;
+    color: var(--color1);
+    margin-bottom: 10px;
+}
+
+.curses-student{
+    padding: 40px 90px;
+}
+
+.task-student{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--color2);
+    background-color: var(--color3);
+    padding: 50px;
+    margin: 15px 0;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.scores-task-str{
+    color: var(--color1);
+}
+
+.scores-num{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.link-student{
+    text-decoration: none;
+    margin: 10px;
+}
+
+.h3-student{
+    font-size: 1.375rem;
+    color: var(--color3);
+}
+
+.content-task-student{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.scores-task{
+    display: flex;
+    flex-direction: column;
+}
+
+.life-line{
+    margin: 10px 0;
+    width: 100%;
+    height: 45px;
+    background-color: var(--bac);
+    border-radius: 30px;
+}
+
+.progress-line{
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color2);
+    width: 10%;
+    height: 45px;
+    background-color: var(--color3);
+    border-radius: 30px;
+}
+
+.inform-about-task{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--color1);
+}
+
+.scores-profil{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--color2);
+}
+
+.School-Science-img{
+    width: 90px;
+    height: 90px;
+}
+
+.Internet-Network-img{
+    width: 90px;
+    height: 90px;
+}
+
+.Social-Rewards-img{
+    width: 90px;
+    height: 90px;
+}
+
+@media (max-width: 1024px) {
+    .School-Science-img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .Internet-Network-img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .Social-Rewards-img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .inform-student{
+        padding: 20px 60px;
+    }
+    
+    .student-inform-left{
+        gap: 20px;
+    }
+    
+    .h1-student{
+        font-size: 1.75rem;
+    }
+    
+    .photo-student{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .student-name{
+        font-size: 1.375rem;
+    }
+    
+    .student-name img{
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+    }
+    
+    .level-student{
+        font-size: 1.125rem;
+    }
+    
+    .curse-bpla{
+        gap: 30px;
+        padding: 40px 60px;
+    }
+    
+    .h2-student{
+        font-size: 1.375rem;
+    }
+    
+    .curses-student{
+        padding: 20px 60px;
+    }
+    
+    .task-student{
+        font-size: 1rem;
+        padding: 20px;
+    }
+
+    .scores-num{
+        font-size: 2rem;
+    }
+
+    .h3-student{
+        font-size: 1.125rem;
+    }
+    
+    .content-task-student{
+        gap: 20px;
+    }
+    
+    .life-line{
+        height: 35px;
+    }
+    
+    .progress-line{
+        font-size: 1rem;
+        font-weight: 600;
+        height: 35px;
+    }
+    
+    .inform-about-task{
+        font-size: 1rem;
+    }
+    
+    .scores-profil{
+        font-size: 1rem;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .School-Science-img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .Internet-Network-img{
+        width: 40px;
+        height: 40px;
+    }
+    .Social-Rewards-img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .inform-student{
+        padding: 20px 20px;
+    }
+    
+    .student-inform-left{
+        gap: 15px;
+    }
+    
+    .h1-student{
+        font-size: 1.375rem;
+    }
+    
+    .photo-student{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .student-name{
+        font-size: 1.125rem;
+    }
+    
+    .student-name img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .level-student{
+        font-size: 1.125rem;
+    }
+    
+    .curse-bpla{
+        gap: 30px;
+        padding: 40px 60px;
+    }
+    
+    .h2-student{
+        font-size: 1.375rem;
+    }
+    
+    .curses-student{
+        padding: 20px 60px;
+    }
+    
+    .task-student{
+        font-size: 1rem;
+        padding: 20px;
+    }
+
+    .scores-num{
+        font-size: 2rem;
+    }
+
+    .h3-student{
+        font-size: 1.125rem;
+    }
+    
+    .content-task-student{
+        gap: 20px;
+    }
+    
+    .life-line{
+        height: 35px;
+    }
+    
+    .progress-line{
+        font-size: 1rem;
+        font-weight: 600;
+        height: 35px;
+    }
+    
+    .inform-about-task{
+        font-size: 1rem;
+    }
+    
+    .scores-profil{
+        font-size: 1rem;
+    }
+    
+}

@@ -1,0 +1,134 @@
+.logo{
+    width: 90px;
+    height: 90px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat',sans-serif;
+    padding: 5px 90px;
+    background-color: var(--color1);
+    width: 100%;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.header-nav li {
+	list-style: none;	
+}
+
+.header-nav li a{
+    font-size: 1rem;
+    color: var(--color2);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.header-nav li a:hover{
+    color: var(--color2-1);
+}
+
+.burger-menu {
+    display: none;
+}
+  
+.burger-item {
+    cursor: pointer;
+}
+  
+.burger-menu span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: var(--color2);
+    margin: 5px 0;
+}
+  
+.container-profil{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+	padding: 15px 20px;
+	border-radius: 5px;
+	background-color: var(--color3);
+    color: var(--bac);
+    text-decoration: none;
+}
+
+.logOut{
+    width: 60px;
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+    .logo{
+        width: 60px;
+        height: 60px;
+    } 
+    
+    .header{
+        height: 70px;
+        padding: 5px 60px;
+    }
+    
+   .burger-menu {
+      display: block;
+    }
+   
+    .header-nav{
+        display: none;
+    }
+
+    .burger-nav{
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: var(--color1);
+        padding: 20px 40px;
+        z-index: 3;
+    }
+
+    .ul-burger{
+        list-style-type: none;
+    }
+
+    .menu-item{
+         margin: 5px;
+    }
+
+    .burger-nav a{
+        text-decoration: none;
+        color: var(--color2);
+        font-size: 1rem;
+    }
+
+    .logOut{
+        width: 40px;
+    }
+}
+@media (max-width: 600px) {
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+
+    .header{
+        height: 50px;
+        padding: 5px 20px;
+    }
+
+    .logOut{
+        width: 30px;
+    }
+
+    .burger-nav{
+        top: 40px;    
+    }
+}

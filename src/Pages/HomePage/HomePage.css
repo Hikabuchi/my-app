@@ -1,0 +1,147 @@
+.home-page{
+	background-color: var(--bac);
+}
+
+.About-curse{
+    font-family: "Montserrat", sans-serif;
+	display: flex;
+	padding: 100px 90px;
+	gap: 40px;
+}
+
+.about-curse-h2{
+	color: var(--color1);
+	font-family: "Oswald", sans-serif;
+	font-size: 4.5rem;
+	font-weight: 700;
+}
+
+.about-curse-img{
+	display: flex;
+	justify-content: center;
+}
+
+.about-curse-img img{
+	width: auto;
+	height: 500px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+
+.about-curse-p{
+	color: var(--color1);
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+.about-curse_container{
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.about-curse-link{
+    width: 300px;
+    border-radius: 5px;
+    background-color: var(--color3);
+    text-align: center;
+    padding: 10px 15px;
+	font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--bac);
+}
+
+.inform-curse{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 80px;
+	padding: 60px;
+	height: auto;
+	width: 100%;
+	background-color: var(--color2);
+}
+
+.inform-cart{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 15px;
+	width: 440px;
+	height: 300px;
+	background-color: var(--color1);
+}
+
+.inform-cart-top{
+	color: var(--bac);
+	font-family: "Montserrat", sans-serif;
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+
+.inform-cart-button{
+	color: var(--color2);
+	font-family: "Oswald", sans-serif;
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+
+@media(max-width: 1024px){
+	.About-curse{
+		flex-wrap: wrap;
+		padding: 100px 60px;
+		gap: 40px;
+	}
+	
+	.about-curse-img img{
+		width: 100%;
+        height: auto;
+	}
+
+	.about-curse-h2{
+		font-size: 4rem;
+	}
+
+	.about-curse_container{
+		flex-wrap: wrap;
+		gap: 40px;
+	}
+
+	.about-curse-p{
+		font-size: 1.5rem;
+	}
+
+    .inform-cart{
+		padding: 20px;
+		width: 300px;
+		height: 200px;
+	}
+	
+	.inform-cart-top{
+		font-size: 1.5rem;
+	}
+	
+	.inform-cart-button{
+		font-size: 2rem;
+	}
+}
+
+@media(max-width: 600px ){
+
+	.about-curse-h2{
+		font-size: 3rem;
+	}
+
+	.about-curse-p{
+		font-size: 1rem;
+	}
+
+	.about-curse-img{
+		justify-content: center;
+		width: 100%;
+	}
+}

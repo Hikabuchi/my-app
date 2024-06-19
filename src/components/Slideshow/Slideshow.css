@@ -1,0 +1,35 @@
+/* Import the original styles */
+@import '~react-responsive-carousel/lib/styles/carousel.min.css';
+
+/* Override the default styles */
+.carousel {
+  /* Change the background color of the carousel */
+  background-color: var(--color1);
+}
+
+.thumbs,
+.carousel-status{
+    display: none;
+}
+
+.content-clider{
+    position:absolute;
+    top: 150px;
+    left: 150px;
+}
+
+@media (max-width: 1024px){
+    .content-clider{
+        position:absolute;
+        top: 60px;
+        left: 60px;
+    }
+}
+
+@media (max-width: 1024px){
+    .content-clider{
+        position:absolute;
+        top: 10px;
+        left: 10px;
+    }
+}

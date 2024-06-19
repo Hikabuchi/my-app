@@ -1,0 +1,77 @@
+.main-container-task{
+    padding: 40px 90px;
+}
+
+.back-link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tasks-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 100px 150px;
+    background-color: var(--color2);
+    border-radius: 15px;
+}
+
+.nawigation-tasks{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.task-container{
+    width: 100%;
+}
+
+.cart-task-job{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--color3);
+    padding: 50px;
+    margin: 15px 0;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.task-content{
+    display: flex;
+}
+
+.content-task p{
+    color: var(--color1);
+
+}
+
+.size-content{
+    max-width: 1000px;
+}
+
+.status-task{
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--color2);
+}
+
+.DownloadPDF{
+    display: flex;
+    flex-direction: column;
+}
+.DownloadPDF img{
+    width: 90px;
+}
+
+.content-task{
+    display: flex;
+    flex-wrap: wrap;
+}
+
