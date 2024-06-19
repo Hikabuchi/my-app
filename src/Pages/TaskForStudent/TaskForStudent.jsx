@@ -77,7 +77,7 @@ const JobFilter = () => {
         <main className='main'>
             <div className='main-container-task'>
                 <div className='back-link'>
-                    <Link to="/personal-account" className="">
+                    <Link to="/personal-account">
                         <img src={require('../../assets/icons/Interface-Essential-Navigation-Left-Circle-1--Streamline-Pixel.png')} alt="" className=''/>
                     </Link>
                     <h1>Курс основы управления БПЛА</h1>
