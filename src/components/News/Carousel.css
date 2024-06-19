@@ -79,12 +79,7 @@
   
   .container-card-img{
     height: 200px;
-  }
-  
-  .flipping-in-front,
-  .flipping-in-bac{
-    font-size: 40px;
-  }
+  } 
   
   .carousel-card p{
     margin: 10px 20px;
@@ -99,11 +94,6 @@
 @media(max-width: 600px){
   .carousel-inner {
     gap: 30px;
-  }
-  
-  .flipping-in-front,
-  .flipping-in-bac{
-    font-size: 20px;
   }
   
   .carousel-card p{
