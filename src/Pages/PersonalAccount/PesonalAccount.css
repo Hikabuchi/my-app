@@ -92,6 +92,12 @@
     font-weight: 600;
 }
 
+.content-task-student-2{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--color3-1);
+}
+
 .link-student{
     text-decoration: none;
     margin: 10px;
@@ -263,7 +269,7 @@
 @media (max-width: 600px) {
     .School-Science-img{
         width: 60px;
-        height: 0px;
+        height: 60px;
     }
 
     .Internet-Network-img{

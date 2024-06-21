@@ -11,9 +11,9 @@ const HomePage = () => {
     <div className="home-page">
       <Header />
       <main className='main'>
-        <section className="slider">
+        <div className="slider">
           <Slideshow />
-        </section>
+        </div>
         <section className="About-curse">
             <div className="about-curse-img">
               <img src={require('../../assets/images/azis-pradana-c_5tdM3RifY-unsplash.jpg')} alt="Logo" className='logo'/>

@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="contacts">
         <h2 className='footer-h2'>Контакты</h2>
-        <span>Телефон: <a href="tel:+7 (953) 259-08-58">+7 (953) 259-08-58</a> </span>
+        <span>Телефон: <a href="tel:+79532590858">+7 (953) 259-08-58</a> </span>
         <span>e-mail: <a href="mailto:info@itcube19.ru">info@itcube19.ru</a> </span>
         <div className="icons">
           <Link to="https://vk.com/it_cubeabakan" className="icon"><img src={require('../../assets/icons/VK.png')} alt="vk" className='vk'/></Link>

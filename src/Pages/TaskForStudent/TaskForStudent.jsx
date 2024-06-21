@@ -98,7 +98,7 @@ const JobFilter = () => {
                                 <Link to={job.link} className='cart-task-job'>
                                 <div className='content-task'>
                                     <div>
-                                        <img src={job.imageEd} alt='h'/>
+                                        <img  src={job.imageEd} alt='Иконка' className='School-Science-img'/>
                                         <div className='status-task'>
                                             {job.status}
                                         </div>
@@ -114,7 +114,7 @@ const JobFilter = () => {
                                 </div>
                             <div>
                                     <div className='DownloadPDF'>
-                                        <img src={job.imagePDF} alt='h' />
+                                        <img src={job.imagePDF} alt='Иконка' className='Internet-Network-img' />
                                         <span>Скачать</span>
                                     </div>
                                     <div className="scores-task">

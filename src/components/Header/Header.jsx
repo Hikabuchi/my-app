@@ -30,10 +30,10 @@ const Header = () => {
           <li className='menu-item'>
             <Link to="/news-and-ewent">Новости и мерприятия</Link>
           </li>
+        </ul>
           <div className='container-profil'>
             <Link to="/login">Войти</Link>
           </div>
-        </ul>
       </nav>
       )}
     </div>
@@ -50,10 +50,13 @@ const Header = () => {
       <li className='menu-item'>
         <Link to="/news-and-ewent">Новости и мерприятия</Link>
       </li>
+      <li>
         <Link to="/login" className='container-profil'>
-      <div >Войти</div>
+          <div >Войти</div>
         </Link>
+      </li>
     </ul>
+    
     </header>
   );
 };

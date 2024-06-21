@@ -83,11 +83,11 @@
     
     .tasks-container{
         gap: 20px;
-        padding: 90px ;
+        padding: 60px ;
     }
 
     .cart-task-job{
-        padding: 30px;
+        padding: 20px;
     }
     
     .task-content{
@@ -95,9 +95,9 @@
     }
 
     .size-content{
-        max-width: 700px;
+        max-width: 500px;
     }
-    .Interface-Essential-img{
+    .School-Science-img{
         width: 60px;
         height: 60px;
     }

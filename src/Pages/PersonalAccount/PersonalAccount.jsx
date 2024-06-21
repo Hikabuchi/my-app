@@ -49,7 +49,7 @@ const PersonalAccount = () => {
                                     <span>Устройство дрона</span>
                                 </div>
                             </div>
-                            <div className='content-task-student'>
+                            <div className='content-task-student content-task-student-2'>
                                <div className="download">
                                     <img src={require('../../assets/icons/Internet-Network-Computer-Download--Streamline-Pixel.png')} alt="Иконка" className='Internet-Network-img'/> 
                                     <div>Скачать</div>
@@ -68,7 +68,7 @@ const PersonalAccount = () => {
                                 <span>История появления первых летательных аппаратов</span>
                             </div>
                         </div>
-                        <div className='content-task-student'>
+                        <div className='content-task-student content-task-student-2'>
                             <div className="download">
                             <img src={require('../../assets/icons/Internet-Network-Computer-Download--Streamline-Pixel.png')} alt="Иконка" className='Internet-Network-img'/> 
                                 <div>Скачать</div>
