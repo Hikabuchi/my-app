@@ -78,14 +78,14 @@ const JobFilter = () => {
             <div className='main-container-task'>
                 <div className='back-link'>
                     <Link to="/personal-account">
-                        <img src={require('../../assets/icons/Interface-Essential-Navigation-Left-Circle-1--Streamline-Pixel.png')} alt="" className='Interface-Essential-img'/>
+                        <img src={require('../../assets/icons/Interface-Essential-Navigation-Left-Circle-1--Streamline-Pixel.png')} alt="home" className='Interface-Essential-img'/>
                     </Link>
-                    <h1>Курс основы управления БПЛА</h1>
+                    <h1 className='h1-student-task'>Курс основы управления БПЛА</h1>
                 </div>
                 <div className='tasks-container'>
                     <div className='nawigation-tasks'>
                         <h2>Курс основы управления БПЛА</h2>
-                        <select value={filter} onChange={handleFilterChange}>
+                        <select value={filter} onChange={handleFilterChange} className='select-task'>
                             <option value="all">Все задания курса</option>
                             <option value="active">Актуальные задания</option>
                             <option value="future">Предстоящие задания</option>
@@ -112,7 +112,7 @@ const JobFilter = () => {
                                     <p>{job.content}</p>
                                     </div>
                                 </div>
-                            <div>
+                            <div className='content-task-student-all'>
                                     <div className='DownloadPDF'>
                                         <img src={job.imagePDF} alt='Иконка' className='Internet-Network-img' />
                                         <span>Скачать</span>

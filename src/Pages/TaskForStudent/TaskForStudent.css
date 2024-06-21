@@ -44,6 +44,8 @@
 
 .task-content{
     display: flex;
+    color: var(--color2);
+    margin: 5px;
 }
 
 .content-task p{
@@ -76,7 +78,36 @@
     flex-wrap: wrap;
 }
 
+.select-task{
+    background-color: #fff;
+    padding: 7px;
+    border: none;
+    color: var(--color1);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.content-task-student-all{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--color3-1);
+    color: var(--color2);
+}
+
+.h1-student-task{
+    font-family: 'Oswald',sans-serif;
+    font-size: 2.188rem;
+    color: var(--color1);
+    margin-bottom: 10px;
+}
+
 @media (max-width: 1024px) {
+    .Interface-Essential-img{
+        width: 60px;
+        height: 60px;
+    }
+
     .main-container-task{
         padding: 20px 60px;
     }
@@ -104,6 +135,51 @@
 
     .DownloadPDF img{
         width: 60px;
+    }
+
+    .h1-student-task{
+        font-size: 1.75rem;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .Interface-Essential-img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .main-container-task{
+        padding: 10px 20px;
+    }
+    
+    .tasks-container{
+        gap: 20px;
+        padding: 40px ;
+    }
+
+    .cart-task-job{
+        padding: 10px;
+    }
+    
+    .task-content{
+        display: flex;
+    }
+
+    .size-content{
+        max-width: 300px;
+    }
+    .School-Science-img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .DownloadPDF img{
+        width: 40px;
+    }
+
+    .h1-student-task{
+        font-size: 1.375rem;
     }
     
 }
